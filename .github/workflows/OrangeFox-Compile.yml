@@ -81,13 +81,8 @@ jobs:
         git clone https://gitlab.com/OrangeFox/sync.git
         cd sync
         ./orangefox_sync.sh --branch ${{ github.event.inputs.MANIFEST_BRANCH }} --path ${GITHUB_WORKSPACE}/OrangeFox/fox_${{ github.event.inputs.MANIFEST_BRANCH }}
-        cd ${GITHUB_WORKSPACE}/OrangeFox/fox_12.1/.repo/manifests
-        sed -i '165d' remove-minimal.xml
         cd ${GITHUB_WORKSPACE}/OrangeFox/fox_12.1
-        set +e
-        repo sync
-        set -e
-        
+        git clone https://android.googlesource.com/platform/external/gflags /platform/external/gflags
 
     - name: Clone Device Tree
       run: |
