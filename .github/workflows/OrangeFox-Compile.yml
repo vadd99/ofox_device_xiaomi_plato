@@ -84,7 +84,9 @@ jobs:
         cd ${GITHUB_WORKSPACE}/OrangeFox/fox_12.1/.repo/manifests
         sed -i '165d' remove-minimal.xml
         cd ${GITHUB_WORKSPACE}/OrangeFox/fox_12.1
+        set +e
         repo sync
+        set -e
         
 
     - name: Clone Device Tree
