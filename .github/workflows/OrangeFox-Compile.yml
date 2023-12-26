@@ -83,6 +83,7 @@ jobs:
         ./orangefox_sync.sh --branch ${{ github.event.inputs.MANIFEST_BRANCH }} --path ${GITHUB_WORKSPACE}/OrangeFox/fox_${{ github.event.inputs.MANIFEST_BRANCH }}
         cd ${GITHUB_WORKSPACE}/OrangeFox/fox_12.1/.repo/manifests
         sed -i '165d' remove-minimal.xml
+        cd ${GITHUB_WORKSPACE}/OrangeFox/fox_12.1
         repo sync
         
 
