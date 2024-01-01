@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_plato.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_plato.mk
 
-COMMON_LUNCH_CHOICES := twrp_plato-eng
+COMMON_LUNCH_CHOICES := omni_plato-eng
