@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Configure twrp config common.mk
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Configure compression
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression.mk)
@@ -37,7 +37,7 @@ $(call inherit-product, device/xiaomi/plato/device.mk)
 
 # Device identifier
 PRODUCT_DEVICE := plato
-PRODUCT_NAME := twrp_plato
+PRODUCT_NAME := omni_plato
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 22071212AG
 PRODUCT_MANUFACTURER := Xiaomi
