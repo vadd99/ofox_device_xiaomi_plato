@@ -33,7 +33,6 @@ if [ -f $FOX_MANIFEST_ROOT/bootable/recovery/orangefox_defaults.go -a -f $FOX_MA
     export FOX_VIRTUAL_AB_DEVICE=1
     export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
     export OF_MAINTAINER="vadd999"
-    export OF_DEFAULT_KEYMASTER_VERSION=true
 
     # Magiskboot
     export OF_USE_MAGISKBOOT=1
