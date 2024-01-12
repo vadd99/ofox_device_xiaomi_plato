@@ -160,8 +160,6 @@ TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_DEFAULT_BRIGHTNESS := 400
 TW_MAX_BRIGHTNESS := 2047
-OF_NO_KEYMASTER_VER_4X=1
-TW_SKIP_ADDITIONAL_FSTAB := true
 
 # Fastbootd
 TW_INCLUDE_FASTBOOTD := true
