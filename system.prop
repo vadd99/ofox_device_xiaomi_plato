@@ -16,6 +16,3 @@ ro.vendor.mediatek.platform=MT6895
 
 # Gatekeeper
 ro.hardware.gatekeeper=beanpod
-
-#keymaster
-keymaster_ver=4.1
