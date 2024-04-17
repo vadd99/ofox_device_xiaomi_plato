@@ -82,6 +82,7 @@ BOARD_DTB_SIZE := 327372
 BOARD_DTB_OFFSET := 0x07C88000
 BOARD_HEADER_SIZE := 2128
 BOARD_VENDOR_CMDLINE := "bootopt=64S3,32N2,64N2 androidboot.selinux=permissive"
+BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=bootloader
 
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_MKBOOTIMG_ARGS += --vendor_cmdline $(BOARD_VENDOR_CMDLINE)
