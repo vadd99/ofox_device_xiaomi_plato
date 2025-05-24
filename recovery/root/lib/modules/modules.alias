@@ -634,8 +634,6 @@ alias net-pf-16-proto-16-family-nl80211 cfg80211
 alias i2c:ps5170 ps5170
 alias of:N*T*Cparade,ps5170 ps5170
 alias of:N*T*Cparade,ps5170C* ps5170
-alias of:N*T*Cmediatek,usb_boost usb_boost
-alias of:N*T*Cmediatek,usb_boostC* usb_boost
 alias of:N*T*Cmediatek,mt6375-auxadc mt6375_auxadc
 alias of:N*T*Cmediatek,mt6375-auxadcC* mt6375_auxadc
 alias of:N*T*Cmediatek,low_battery_throttling mtk_low_battery_throttling
