@@ -27,7 +27,7 @@ if [ -f $FOX_MANIFEST_ROOT/bootable/recovery/orangefox_defaults.go -a -f $FOX_MA
 
     # Build
     export LC_ALL="C"
-    export FOX_MAINTAINER_PATCH_VERSION="r1"
+    export FOX_MAINTAINER_PATCH_VERSION=$(date +"%Y%m%d")
     export FOX_VARIANT="evol-X"
     export FOX_BUILD_TYPE="Unofficial"
     export ALLOW_MISSING_DEPENDENCIES=true
